@@ -42,3 +42,8 @@ makepkg -si
 ## Fonts
 ### System
 - [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
+- https://archlinux.org/packages/extra/any/fira-sans/
+
+### Terminal
+- [GeistMono Nerd Font](https://www.nerdfonts.com/)
+- https://archlinux.org/packages/extra/any/otf-geist-mono-nerd/
