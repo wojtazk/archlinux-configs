@@ -1,5 +1,7 @@
 # My Arch configs
 
+![terminal screen shot](/terminal.png)
+
 ## Systemd-boot
 dir: `/boot/loader/`
 
