@@ -1,1 +1,1 @@
-# archlinux-configs
+# My Arch configs
