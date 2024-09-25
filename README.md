@@ -23,9 +23,22 @@ file: `config.fish`
 
 ## Nano
 Append to `/etc/nanorc`:
-```
+```sh
 # My config
 include "/usr/share/nano/*.nanorc"
 include "/usr/share/nano/extra/*.nanorc"
 set linenumbers
 ```
+
+## YAY
+[github.com/Jguer/yay](https://github.com/Jguer/yay)
+```sh
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+```
+
+## Fonts
+### System
+- [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
