@@ -20,3 +20,12 @@ dir: `~/.config/fish/`
 
 file: `config.fish`
 
+
+## Nano
+Append to `/etc/nanorc`:
+```
+# My config
+include "/usr/share/nano/*.nanorc"
+include "/usr/share/nano/extra/*.nanorc"
+set linenumbers
+```
