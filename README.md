@@ -12,3 +12,10 @@ file: `starship.toml` (stolen from Garuda Linux)
 dir: `~/.config/fish/`
 
 file: `config.fish`
+
+
+## Systemd-boot
+
+dir: `/boot/loader/`
+
+file: `loader.conf`
