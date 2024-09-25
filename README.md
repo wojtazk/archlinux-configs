@@ -19,3 +19,6 @@ file: `config.fish`
 dir: `/boot/loader/`
 
 file: `loader.conf`
+
+### Nvidia Drivers
+Add `nvidia-drm.modeset=1` to kernel options in entries in `/boot/loader/entries`
