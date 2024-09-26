@@ -23,6 +23,12 @@ dir: `~/.config/fish/`
 file: `config.fish`
 
 
+## Konsole
+dir: `~/.local/share/konsole`
+
+file: `Fish.profile` & `Breeze.colorscheme`
+
+
 ## Nano
 Append to `/etc/nanorc`:
 ```sh
