@@ -2,6 +2,7 @@
 
 ![terminal screen shot](/terminal.png)
 
+
 ## Systemd-boot
 dir: `/boot/loader/`
 
@@ -58,6 +59,7 @@ Uncomment `[multilib]` repo (for native steam app to work)
   +   Include = /etc/pacman.d/mirrorlist
   ```
 
+
 ## YAY
 [github.com/Jguer/yay](https://github.com/Jguer/yay)
 ```sh
@@ -66,6 +68,17 @@ git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 makepkg -si
 ```
+
+
+## Wallpaper
+![wallpaper - darkest hour](/DarkestHour/contents/screenshot.jpg)
+
+dir: `/usr/share/wallpapers/DarkestHour`
+
+name: `Darkest Hour`\
+author: `Risto Saukonpää`\
+license: `LGPLv3`
+
 
 ## Fonts
 ### System
