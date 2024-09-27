@@ -38,6 +38,26 @@ include "/usr/share/nano/extra/*.nanorc"
 set linenumbers
 ```
 
+
+## Pacman
+dir: `/etc/`
+
+file: `pacman.conf`
+
+\
+Add to `Misc Options`
+- `Color`
+- `ILoveCandy`
+
+Uncomment `[multilib]` repo (for native steam app to work)
+- ```diff
+  -   #[multilib]
+  -   #Include = /etc/pacman.d/mirrorlist
+  
+  +   [multilib]
+  +   Include = /etc/pacman.d/mirrorlist
+  ```
+
 ## YAY
 [github.com/Jguer/yay](https://github.com/Jguer/yay)
 ```sh
