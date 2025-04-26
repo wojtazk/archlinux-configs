@@ -87,7 +87,6 @@ sudo pacman -S otf-fira-sans noto-fonts-cjk otf-geist-mono-nerd
 ### System
 - [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
   - https://archlinux.org/packages/extra/any/fira-sans/
-
 - [Noto](https://fonts.google.com/noto)
   - https://archlinux.org/packages/extra/any/noto-fonts-cjk/
 
