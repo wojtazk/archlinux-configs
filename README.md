@@ -81,10 +81,16 @@ license: `LGPLv3`
 
 
 ## Fonts
+```shell
+sudo pacman -S otf-fira-sans noto-fonts-cjk otf-geist-mono-nerd
+```
 ### System
 - [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
-- https://archlinux.org/packages/extra/any/fira-sans/
+  - https://archlinux.org/packages/extra/any/fira-sans/
+
+- [Noto](https://fonts.google.com/noto)
+  - https://archlinux.org/packages/extra/any/noto-fonts-cjk/
 
 ### Terminal
 - [GeistMono Nerd Font](https://www.nerdfonts.com/)
-- https://archlinux.org/packages/extra/any/otf-geist-mono-nerd/
+  - https://archlinux.org/packages/extra/any/otf-geist-mono-nerd/
