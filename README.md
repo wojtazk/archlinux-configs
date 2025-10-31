@@ -13,9 +13,12 @@ Add `nvidia-drm.modeset=1` to kernel options in entries in `/boot/loader/entries
 
 
 ## Starship
+> [!NOTE]
+> Borrowed from Garuda Linux (https://gitlab.com/garuda-linux/pkgbuilds/-/tree/main/garuda-starship-prompt) 
+
 dir: `~/.config/`
 
-file: `starship.toml` (stolen from Garuda Linux)
+file: `starship.toml`
 
 
 ## Fish
