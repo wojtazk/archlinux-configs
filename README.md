@@ -93,3 +93,54 @@ sudo pacman -S otf-fira-sans noto-fonts-cjk otf-geist-mono-nerd
 ### Terminal
 - [GeistMono Nerd Font](https://www.nerdfonts.com/)
   - https://archlinux.org/packages/extra/any/otf-geist-mono-nerd/
+
+---
+
+## System cleanup
+### Look for high disk usage
+```shell
+sudo du -h --max-depth 1 / | sort -hr
+```
+```shell
+sudo du -h --max-depth 1 /var | sort -hr
+```
+etc
+
+### Remove unused packages
+List unused:
+```shell
+sudo pacman -Qtdq
+```
+Remove unused:
+```shell
+sudo pacman -R $(pacman -Qtdq)
+```
+
+### Delete pacman & yay cache
+https://wiki.archlinux.org/title/Pacman#Cleaning_the_package_cache
+
+Paccache deletes all cached versions of installed and uninstalled packages, except for the most recent three, by default:
+```shell
+paccache -r
+```
+
+```shell
+yay --aur -Sc
+```
+
+### Docker
+```shell
+docker system df
+```
+```shell
+docker system prune -a
+```
+```shell
+docker volume rm $(docker volume ls -q)
+```
+
+### Pipenv
+```shell
+pipenv --clear
+```
+
