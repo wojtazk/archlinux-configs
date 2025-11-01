@@ -144,3 +144,6 @@ symbol = " "
 
 [swift]
 symbol = "ﯣ "
+
+[terraform]
+symbol = " "
