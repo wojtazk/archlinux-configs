@@ -9,6 +9,9 @@ dir: `/boot/loader/`
 file: `loader.conf`
 
 ### Nvidia Drivers
+> [!NOTE]
+> Probably not needed nowadays
+
 Add `nvidia-drm.modeset=1` to kernel options in entries in `/boot/loader/entries`
 
 
@@ -97,7 +100,14 @@ sudo pacman -S otf-fira-sans noto-fonts-cjk otf-geist-mono-nerd
 - [GeistMono Nerd Font](https://www.nerdfonts.com/)
   - https://archlinux.org/packages/extra/any/otf-geist-mono-nerd/
 
+## Icons
+[Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+```shell
+sudo pacman -S papirus-icon-theme
+```
+
 ---
+
 
 ## System cleanup
 ### Look for high disk usage
